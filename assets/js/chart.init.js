@@ -3,7 +3,7 @@
 $(function () {
     var ctx, data, myBarChart, option_bars;
     Chart.defaults.global.responsive = true;
-    ctx = $('#bar-chart').get(0).getContext('2d');
+    ctx = $('#horarios').get(0).getContext('2d');
     ctx.canvas.height = 180;
     option_bars = {
         scaleBeginAtZero: true,
